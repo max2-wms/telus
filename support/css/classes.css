@@ -1,0 +1,62 @@
+.main_nav {
+  margin-top: 37px;
+}
+
+.main_nav ul li {
+  margin-right: 32px;
+}
+
+.main_nav ul li a:link, .main_nav ul li a:visited, .main_nav ul li a:hover, .main_nav ul li a:active {
+  font-size: 17px;
+  font-weight: 800px;
+  color: #FFF;
+  text-decoration: none;
+  padding-top: 29px;
+}
+
+.main_nav ul li a:hover, .main_nav ul li a.current {
+  border-top: 6px solid #57a708;
+}
+
+.secondary_nav {
+  margin-top: 65px;
+}
+
+.secondary_nav ul li {
+  margin-right: 32px;
+}
+
+.secondary_nav ul li a:link, .secondary_nav ul li a:visited, .secondary_nav ul li a:hover, .secondary_nav ul li a:active {
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.sub_footer {
+  width: 400px;
+}
+
+.sub_footer a {
+  text-decoration: none;
+}
+
+.second_footer {
+  padding: 20px 0 30px;
+}
+
+.support,
+.chat.agentonline {
+  width: 48px;
+  height: 78px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.support span,
+.chat.agentonline span {
+  font-size: 42px;
+}
+
+.jsChangeCategory a:hover {
+  text-decoration: none;
+}

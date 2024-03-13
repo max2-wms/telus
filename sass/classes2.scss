@@ -1,0 +1,105 @@
+@import "variables2";
+@import "mixins2";
+
+.registration.icon-user-profile-inverted {
+	font-size: 62px;
+}
+
+.site-header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.flower {
+	margin: 50px 0 0 50px;
+	width: 277px;
+	height: 277px;
+}
+
+
+.tooltip_bubble::before {
+    border-color: #f8dde3 transparent;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    top: -5px;
+    width: 0;
+}
+
+.tooltip_bubble {
+    background-color: $tooltip_bg;
+    color: $dark_gray;
+    display: none;
+    font-family: "tlightregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 55px;
+    padding: 7px;
+    position: relative;
+}
+
+.status {
+	.frg-input-field {
+		width: 90%;
+		border-right: none;
+		border-radius: 2px 0 0 2px;
+	}
+
+	.frg-icon {
+		border-top: thin solid $light_gray2;
+		border-right: thin solid $light_gray2;
+		border-bottom: thin solid $light_gray2;
+		border-radius: 0 2px 2px 0;
+		margin-top: 2px;
+		padding: 2px 5px 3px;
+		height: 44px;
+		width: 10%;
+
+		&.icon-warning-inverted {
+			color: red;
+		}
+
+		&.icon-checkmark-inverted {
+			color: green;
+			padding: 2px 5px;
+		}
+	}
+
+	&.negative {
+		.frg-input-field {
+			border-top: thin solid red;
+			border-left: thin solid red;
+			border-bottom: thin solid red;
+		}
+
+		.frg-icon {
+			border-top: thin solid red;
+			border-right: thin solid red;
+			border-bottom: thin solid red;
+		}
+
+		.tooltip_bubble {
+			display: block;
+		}
+	}
+
+	&.positive {
+		.frg-input-field {
+			border-top: thin solid green;
+			border-left: thin solid green;
+			border-bottom: thin solid green;
+		}
+
+		.frg-icon {
+			border-top: thin solid green;
+			border-right: thin solid green;
+			border-bottom: thin solid green;
+		}
+
+		.tooltip_bubble {
+			display: none;
+		}
+	}
+}

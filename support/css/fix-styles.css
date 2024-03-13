@@ -1,0 +1,147 @@
+.outline {
+  border: thin solid green;
+}
+
+.block {
+  display: block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix,
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.center_element {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.separator {
+  border-left: thin solid #979797;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.main_nav {
+  margin-top: 37px;
+}
+
+.main_nav ul li {
+  margin-right: 32px;
+}
+
+.main_nav ul li a:link, .main_nav ul li a:visited, .main_nav ul li a:hover, .main_nav ul li a:active {
+  font-size: 17px;
+  font-weight: 800px;
+  color: #FFF;
+  text-decoration: none;
+  padding-top: 29px;
+}
+
+.main_nav ul li a:hover, .main_nav ul li a.current {
+  border-top: 6px solid #57a708;
+}
+
+.secondary_nav {
+  margin-top: 65px;
+}
+
+.secondary_nav ul li {
+  margin-right: 32px;
+}
+
+.secondary_nav ul li a:link, .secondary_nav ul li a:visited, .secondary_nav ul li a:hover, .secondary_nav ul li a:active {
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.sub_footer {
+  width: 400px;
+}
+
+.sub_footer a {
+  text-decoration: none;
+}
+
+.second_footer {
+  padding: 20px 0 30px;
+}
+
+.support,
+.chat.agentonline {
+  width: 48px;
+  height: 78px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.support span,
+.chat.agentonline span {
+  font-size: 42px;
+}
+
+.jsChangeCategory a:hover {
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+  color: #FFF;
+  padding-bottom: 15px;
+  font-family: "telusweb", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 17px;
+}
+
+header .grid {
+  margin: 0 15px 0 11px;
+  max-width: 100%;
+  min-width: 1000px;
+  width: auto;
+  padding: 0;
+}
+
+header .grid a.logo {
+  width: 155px;
+  height: 29px;
+  margin: 29px 76px 0 0;
+}
+
+header .grid a.logo img {
+  width: 155px;
+  height: 29px;
+  margin-right: 76px;
+}
+
+footer {
+  background-color: #333 !important;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer img.logo {
+  margin: 10px 0;
+}
+
+footer img.logo + p {
+  margin: 25px 0;
+  font-size: 17px !important;
+}

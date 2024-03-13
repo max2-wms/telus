@@ -1,0 +1,117 @@
+.hy-footer.hy-footer {
+  font-family: "telusweb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-stretch: normal;
+        font-variant: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: none;
+}
+
+footer.hy-footer {
+  background-color: #f5f6f7;
+        padding: 30px 0;
+}
+
+h3.hy-footer {
+  color: #49166d;
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 21px;
+        line-height: 1.143;
+}
+
+.footer__section.hy-footer {
+  border-top: 1px solid #e2e2e2;
+        border-right: 1px solid #e2e2e2;
+        margin: 20px 0 40px;
+        width: 50%;
+        float: left;
+}
+
+.footer__section.hy-footer:nth-of-type(2n) {
+  border-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+.footer__section.hy-footer:nth-of-type(2n) {
+  padding-left: 0;
+          border-right: 1px solid #e2e2e2;
+}
+
+}
+
+.footer__section.hy-footer:nth-child(3),
+      .footer__section.hy-footer:nth-child(4) {
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.footer__section.hy-footer:nth-child(3),
+        .footer__section.hy-footer:nth-child(4) {
+  padding-top: 0;
+}
+
+.footer__section.hy-footer:nth-child(4) {
+  border-width: 0;
+}
+
+}
+
+.footer__section.hy-footer:first-child,
+      .footer__section.hy-footer:nth-child(2) {
+  border-top: 0;
+        padding-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+.footer__section.hy-footer {
+  width: 22.9%;
+          float: left;
+          margin-right: 2.02429%;
+          border-top: 0;
+          padding-left: 0;
+}
+
+.footer__section.hy-footer:last-child {
+  float: right;
+          margin-right: 0;
+          border-right: 0;
+          margin-right: 0;
+}
+
+}
+
+.footer__section.hy-footer ul.hy-footer {
+  width: 99%;
+}
+
+.footer__section.hy-footer ul.hy-footer li.hy-footer {
+  font-size: 14px;
+        margin-bottom: 3px;
+}
+
+@media screen and (min-width: 1099px) {
+.footer__section.hy-footer ul.hy-footer li.hy-footer {
+  float: left;
+          width: 40%;
+          margin-right: 10%;
+}
+
+}
+
+.footer__section-column.hy-footer a.hy-footer {
+  text-decoration: none;
+        color: #333;
+        font-size: 14px;
+}
+
+.footer__section-column.hy-footer a.hy-footer:hover, .footer__section-column.hy-footer a.hy-footer:focus {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+.footer__section.hy-footer:nth-child(2n) ul.hy-footer {
+  margin-left: 20px;
+}
+
+}

@@ -1,0 +1,217 @@
+@import "variables2";
+@import "mixins2";
+
+body,
+.default_text_color,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	color: $default_text_color;
+}
+
+.outer-container {
+	padding-right: 9px;
+	padding-left: 9px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.inner-container {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+
+	&.grid {
+	    width: auto;
+	    max-width: 1200px;
+	    min-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+}
+
+.light_gray_bg {
+	background-color: $light_gray;
+}
+
+.devil_gray_text {
+	color: $devil_gray;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.line {
+	&.light_gray2 {
+		border-bottom: thin solid $light_gray2;
+	}
+}
+
+.vertical_padding10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.vertical_padding20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.vertical_padding30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.no_padding {
+	padding: 0;
+}
+
+.top_margin0 {
+	margin-top: 0;
+}
+
+.top_margin20 {
+	margin-top: 20px;
+}
+
+.top_margin50 {
+	margin-top: 50px;
+}
+
+.bottom_margin20 {
+	margin-bottom: 20px;
+}
+
+.bottom_margin50 {
+	margin-bottom: 50px;
+}
+
+.top_padding0 {
+	padding-top: 0;
+}
+
+.top_padding20 {
+	padding-top: 20px;
+}
+
+.top_padding50 {
+	padding-top: 50px;
+}
+
+.bottom_padding20 {
+	padding-bottom: 20px;
+}
+
+.bottom_padding50 {
+	padding-bottom: 50px;
+}
+
+.block {
+	display: block;
+}
+
+.lenght70 {
+	width: 70%;
+}
+
+.full_width {
+	width: 100%;
+}
+
+.frg-button {
+	&.color-green:hover {
+		text-decoration: none;
+	}
+}
+
+.frg-select-container {
+	&::after {
+		margin: -5px 7px 0 0;
+		color: $purple !important;
+	}
+}
+
+.right_align {
+	text-align: right;
+}
+
+.left_align {
+	text-align: left;
+}
+
+.sticky,
+.stickyFooter {
+	width: 100%;
+
+	@include primary_bg_color;
+
+	&.actions {
+		.amounts p {
+			font-size: 90%;
+			margin: 0;
+		}
+
+		p,
+		a {
+			color: $white;
+
+			&.h1,
+			&.h2,
+			&.h3,
+			&.h4,
+			&.h5,
+			&.h6 {
+				color: $white !important;
+			}
+		}
+	}
+
+	&.top_bottom_padding {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	&.sticky {
+		position: fixed;
+	    bottom: 0px;
+	    width: 100%;
+	    overflow: visible;
+	    z-index: 99;
+	}
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.form-heading {
+	font-size: 33px;
+}
+
+.login-notice {
+	font-size: 17px;
+}
+
+.telus-logo img {
+    width: 150px;
+}
+
+.frg-input-field {
+	border: thin solid $light_gray2;
+}

@@ -1,0 +1,1 @@
+<input type="hidden" name="spinner_img" value="<?php echo $spinner_img; ?>" />
